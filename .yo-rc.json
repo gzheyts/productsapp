@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "productsappp"
+    },
+    "jhipsterVersion": "4.14.4",
+    "baseName": "productsappp",
+    "packageName": "com.productsappp",
+    "packageFolder": "com/productsappp",
+    "serverPort": "8080",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "rememberMeKey": "5718672f14be1072c34b3fb085b628b8772decfe",
+    "enableTranslation": false
+  }
+}

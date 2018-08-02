@@ -1,0 +1,53 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "category",
+            "otherEntityName": "category",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": 3,
+            "fieldValidateRulesMaxlength": 20
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": 1,
+            "fieldValidateRulesMax": 1000
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 200
+        },
+        {
+            "fieldName": "whenCreated",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20180629213016",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "product",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

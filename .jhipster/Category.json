@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 6
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 200
+        }
+    ],
+    "changelogDate": "20180702032114",
+    "entityTableName": "category",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "skipClient": true
+}
