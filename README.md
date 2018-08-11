@@ -43,14 +43,14 @@ Clone project with
 ### Running application
 
 ```bash
-mvn -f <project_root> spring-boot:run 
+mvn -f <project_root>/pom.xml spring-boot:run 
 ```
 Then navigate to [localhost:8080](http://localhost:8080)
 
 ### Running API
 
 ```bash
-mvn -f <project_root> spring-boot:run -Dskip.yarn
+mvn -f <project_root>/pom.xml spring-boot:run -Dskip.yarn
 ```
 This will run `api` on [localhost:8080/api](http://localhost:8080/api)
 
@@ -65,7 +65,7 @@ Will run frontend dev server at [localhost:3000](http://localhost:3000)
 
 To launch application's tests, run:
 ```
-mvn -f <project_root> test -Dskip.yarn
+mvn -f <project_root>/pom.xml test -Dskip.yarn
 ``` 
 ## API usage examples [httpie]
 
