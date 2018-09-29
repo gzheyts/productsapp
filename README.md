@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/gzheyts/productsapp.svg?branch=master)](https://travis-ci.com/gzheyts/productsapp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # ProductsApp
 ![Screenshot from running application](.scrot/productsapp.png?raw=true "Screenshot ProductsApp")
 
@@ -134,10 +136,6 @@ X-XSS-Protection: 1; mode=block
 ```bash
 http :8080/logout Authorization:"Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE1MzMxOTgxNTYsInN1YiI6InVzZXIifQ.zvw99k1_Nh1UTNI6ZCBHL3v6-boXvuiyBNEcFM2LVhW0Rc6pAN7lEEJpXcSsOrJy0_9ifzgcJvCJTE9C1hW-ig"
 ```
-
-## Copyright and license
-
-The code is released under the *MIT license*
 
 [spring-boot-v2]: https://spring.io/projects/spring-boot
 [create-react-app]: https://github.com/facebook/create-react-app
