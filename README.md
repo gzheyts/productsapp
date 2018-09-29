@@ -3,7 +3,9 @@
 
 ## About
 
-This demo project was bootstrapped with [create-react-app], [spring-boot-v2] and also [jhipster]. 
+This demo project was bootstrapped with [create-react-app], [spring-boot-v2] and also [jhipster].
+
+Try deployed instance with Heroku [productsapp](https://productsapp-demo.herokuapp.com)
 
 ## Goals
 
